@@ -1,4 +1,4 @@
-Assignment 2
+CMPE 283 Assignment 2
 =========
 
 Open cpuid file in /linux/arch/x86/kvm folder.
