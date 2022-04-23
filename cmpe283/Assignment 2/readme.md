@@ -1,7 +1,7 @@
 CMPE 283 Assignment 2
 =========
 
-Open cpuid file in /linux/arch/x86/kvm folder.\n
+Open cpuid file in /linux/arch/x86/kvm folder./n
 Add code for the below functionalities \n
   1. For CPUID leaf node %eax=0x4FFFFFFF:\n
     Return the total number of exits (all types) in %eax\n
