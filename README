@@ -5,13 +5,14 @@ CMPE 283 Assignment 1
 
 2. Steps to do the assignment
     1. Create a nested visrtualization enabled VM instance in GCP using the below command
-    gcloud compute instances create 'Instance name'\
-    --enable-nested-virtualization \
-    --zone='Zone' \
-    --min-cpu-platform="Intel Haswell"
-    Here change the Instance name, Zone accordingly
+        gcloud compute instances create 'Instance name'\
+        --enable-nested-virtualization \
+        --zone='Zone' \
+        --min-cpu-platform="Intel Haswell"
+        Here change the Instance name, Zone accordingly
     
-    2. Check is nested virtualization is enable using the command grep -cw vmx /proc/cpuinfo. If the response is non-zero, the nested virtualization is enabled.
+    2. Check is nested virtualization is enable using the command grep -cw vmx /proc/cpuinfo. 
+        If the response is non-zero, the nested virtualization is enabled.
     3. SSH into the instance and run the following commands
         sudo apt update
         sudo apt upgrade
@@ -25,9 +26,9 @@ CMPE 283 Assignment 1
     9. Click on Add Deploy keys.
     10. Add your instance's public key and check the write access checkbox.
     11. Now clone your branch of linux repository to the instance.
-    12. Inside the VM, change the folder to linux using cd linux command.
-    13. Create a new folder 'cmpe283' using mkdir cmpe283 command.
-    14. Change the folder to linux using cd cmpe283 command.
+    12. Inside the VM, change the folder to linux using 'cd linux' command.
+    13. Create a new folder 'cmpe283' using 'mkdir cmpe283' command.
+    14. Change the folder to linux using 'cd cmpe283' command.
     15. Copy the Makefile and cmpe283-1.c files from canvas to this folder.
     16. Run the `make' command. It will give an error. So run the following commands one after another.
         sudo apt-get install build-essential
@@ -39,10 +40,10 @@ CMPE 283 Assignment 1
         sudo apt install bc
         sudo apt install libelf-dev
         sudo apt install linux-headers-$(uname -r)
-     17. Run the command: make -j 1 modules  This command will take about an hour.
-     18. Run the command: make -j 1
+     17. Run the command: 'make -j 1 modules'. This command will take about an hour.
+     18. Run the command: 'make -j 1'
      19. Open the .config file and change the signature certificates as given in this link: https://stackoverflow.com/questions/67670169/compiling-kernel-gives-error-no-rule-to-make-target-debian-certs-debian-uefi-ce
-     20. Now run `make' command.
+     20. Now run 'make' command.
      21. Call 'sudo insmod ./cmpe283-1.ko'
      22. Run 'sudo dmesg' to see the capabilities.
      
