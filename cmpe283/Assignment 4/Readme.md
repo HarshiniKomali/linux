@@ -1,6 +1,3 @@
-Assignment 4
-=============
-  
 # ASSIGNMENT 4
 
 ## Questions
