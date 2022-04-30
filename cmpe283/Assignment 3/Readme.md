@@ -48,7 +48,7 @@ Steps:
    <img width="440" alt="ffffd-s3" src="https://user-images.githubusercontent.com/15766915/166089665-f7830bec-f0f1-4357-b4c0-576df3940690.png">
    
 14. Comment of the frequency of exits Answer: 
-    Frequency of the exits depends on the system use.The number of exit increases as more priveleged operations are performed.
+    Frequency of the exits depends on the system use.The number of exit increases as more privileged operations are performed.
     
     ![image](https://user-images.githubusercontent.com/15766915/166089756-3ce2d277-244a-443d-ae8c-cf6cf27da0dc.png)
 
