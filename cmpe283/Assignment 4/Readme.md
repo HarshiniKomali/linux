@@ -36,7 +36,6 @@ Q4. What changed between the two runs (ept vs non-ept)
 
     ![image](https://user-images.githubusercontent.com/15766915/166090038-b99bc01a-a9c8-4ac6-a574-5e852ded0d4f.png)
 
-
     In case of shadow paging the count of exits for reason “CR_ACCESS” increased significantly as hypervisor takes exits on access of CR register
     
     ![image](https://user-images.githubusercontent.com/15766915/166090014-d4830447-052d-479a-b894-d92f731a6a3d.png)
