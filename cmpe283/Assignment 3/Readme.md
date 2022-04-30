@@ -34,11 +34,14 @@ Steps:
 10. Which are the most frequent and less frequent exit types?
     Most frquent - MSR_WRITE -Cycle count 4859559731
     Less frequent - DR_ACCESS - Cycle count 7625
+    
     <img width="472" alt="assignment3q2" src="https://user-images.githubusercontent.com/15766915/166089585-ebab3856-75c2-4ddd-a43d-deb25139244e.png">
 
 11. For cpuid 0x4FFFFFFD
 12. Execute dmesg command in the host system’s terminal to count the exits available
+
     <img width="370" alt="ffffd-s2" src="https://user-images.githubusercontent.com/15766915/166089658-052172d3-8649-4a8e-bd94-c9fdc045602b.png">
-13. Cpuid - I 0X4fffffffd -444 - output for invalid exit code   
+13. Cpuid - I 0X4fffffffd -444 - output for invalid exit code 
+  
    <img width="440" alt="ffffd-s3" src="https://user-images.githubusercontent.com/15766915/166089665-f7830bec-f0f1-4357-b4c0-576df3940690.png">
 
