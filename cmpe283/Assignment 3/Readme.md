@@ -25,10 +25,12 @@ Steps:
    
 7. For cpuid 0x4FFFFFFC
 8. Execute dmesg command to view all the exits available count.
+
    <img width="728" alt="ASSIGNMENT 3 IMAGE 4" src="https://user-images.githubusercontent.com/15766915/166089541-32df8459-5aa6-4f27-9232-acdbeda55989.png">
 
 9. Comment of the frequency axis
    Frequency of the time spent depends on the type of exit.The number of exits tends to increase if more privileged operations are performed by the system
+   
    <img width="472" alt="assignment3Q1 (1) (1)" src="https://user-images.githubusercontent.com/15766915/166089576-8f6f7eaf-28dd-482f-8760-6a28bba9cde0.png">
 
 10. Which are the most frequent and less frequent exit types?
@@ -44,4 +46,15 @@ Steps:
 13. Cpuid - I 0X4fffffffd -444 - output for invalid exit code 
   
    <img width="440" alt="ffffd-s3" src="https://user-images.githubusercontent.com/15766915/166089665-f7830bec-f0f1-4357-b4c0-576df3940690.png">
+   
+14. Comment of the frequency of exits Answer: 
+    Frequency of the exits depends on the system use.The number of exit increases as more priveleged operations are performed.
+    
+    ![image](https://user-images.githubusercontent.com/15766915/166089756-3ce2d277-244a-443d-ae8c-cf6cf27da0dc.png)
+
+15. Of the exit types defined in the SDM, which are the most frequent? Least?
+    Most frequent exit - MSR_WRITE(count -605825) Least frequent exit - DR_ACCESS(count-8)
+    
+    ![image](https://user-images.githubusercontent.com/15766915/166089772-71989864-dec4-40c1-82d2-a8045772e415.png)
+
 
